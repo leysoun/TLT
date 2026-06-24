@@ -1,0 +1,20 @@
+# Env / secrets — never commit (Edge Function secrets live in Supabase, not the repo)
+.env
+.env.*
+*.env
+!.env.example
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+supabase/logs/
+
+# Node / Deno
+node_modules/
+.deno/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
