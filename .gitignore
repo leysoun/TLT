@@ -13,6 +13,9 @@ supabase/logs/
 node_modules/
 .deno/
 
+# Local source drop folder (not part of the project)
+/files/
+
 # Editor / OS
 .DS_Store
 Thumbs.db
